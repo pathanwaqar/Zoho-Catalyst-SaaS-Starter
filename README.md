@@ -144,7 +144,7 @@ catalyst-saas-starter/
 - [ ] Slack notification integration via Signals
 - [ ] Usage analytics dashboard per tenant
 
----
+----
 
 ## Author
 
