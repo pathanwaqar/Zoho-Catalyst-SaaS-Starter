@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+.env
+appsail/uploads/
+*.log
+.DS_Store
+.catalystrc
+.catalyst-info

@@ -1,0 +1,13 @@
+{
+  "name": "catalyst-saas-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-tenant project & ticket tracker built end-to-end on Zoho Catalyst",
+  "author": "Waqar Pathan <pathanwaqar26@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "install:all": "npm install --prefix appsail && npm install --prefix client",
+    "dev:api": "npm run dev --prefix appsail",
+    "dev:client": "npm run dev --prefix client"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "client": {
+    "stack": [
+      {
+        "code_language": "reactjs",
+        "source": "client",
+        "build_directory": "dist"
+      }
+    ]
+  },
+  "appsail": [
+    {
+      "stack_name": "api",
+      "directory": "appsail",
+      "stack": "nodejs18",
+      "start_command": "node server.js"
+    }
+  ],
+  "functions": [
+    {
+      "name": "ticketNotifier",
+      "source": "functions/ticketNotifier",
+      "type": "advancedio",
+      "stack": "node18"
+    },
+    {
+      "name": "nightlyDigest",
+      "source": "functions/nightlyDigest",
+      "type": "scheduler",
+      "stack": "node18"
+    }
+  ]
+}
